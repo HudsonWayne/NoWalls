@@ -1,0 +1,1025 @@
+*{
+    font-family: josefin-sans;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Baloo';
+  font-style: bold;
+  font-weight: 300;
+  src: url(Baloo-Font/Baloo-Regular.ttf);
+}
+body{
+  overflow-x: hiden;
+}
+.header-logo{
+    display: flex;
+    object-fit: contain;
+}
+ul a{
+    color: rgb(0,31,40);
+    font-family: Baloo; 
+}
+.topright-nav{
+    display: flex right;
+    margin-left: 500px;
+    padding-top: 60px;   
+}
+.service{
+    color: rgb(215,123,65);
+}
+a{
+    padding: 30px;
+    font-size: 30px;
+    font-family: Baloo bold;   
+}
+a:hover{
+    text-decoration: none;
+}
+.first-text{
+    padding: 40px;
+}
+.first-text h1{
+    font-size: 90px;
+    color: rgb(0,31,40);
+    font-family: Baloo ;
+}
+.first-text h3{
+    color: rgb(0,31,40);
+    font-family: Baloo;
+    font-size: 40px;
+}
+big{
+    color: rgb(215,123,65);
+      font-family: 'Baloo';
+}
+.first-text hr{
+    width: 5%;
+    height: 2px;
+    margin-left: 20px;
+    background-color: rgb(215,123,65);
+}
+.the-two{
+    padding: 16px;
+}
+.thetwo p{
+    padding-left: 20px;
+    font-family: 'Baloo 2', light ;
+    font-size: 17px;
+    font-weight: 200;
+      
+}
+.container{
+    padding: 30px;
+   
+}
+.the-picss{
+    margin-left: -150px; 
+    position: relative; 
+    z-index: 1;
+}
+
+.the-last{
+    margin-left: 40px;
+}
+.the-second{
+    height: 65%;
+    width: 300px;
+    padding-top: 9px;
+}
+.the-third{
+    padding-top: 127px;
+}
+.thesec-divv{
+    margin-top: -94px;
+    margin-left: -135px;
+}
+.grp-last{
+    margin-left: 67px;
+    margin-top: -10px;
+}
+.second-last{
+    margin-left: 30px;
+}
+.driven{
+    font-family: Baloo ;
+    padding-left: 40px;
+    font-size: 50px;
+
+}
+.cotainer2{
+    margin-top: 150px;
+    color: rgb(215,123,65);
+    
+}
+.drivrnp{
+    padding: 40px;
+    font-family: 'Baloo 2', light ;
+    color: rgb(0,31,40);
+    font-size: 18px;
+}
+.logo-two{
+    margin-top: -80px;
+}
+.service-container{
+    background-color: rgb(0,56,79);
+    margin-bottom: 100px;
+    padding-bottom: 70px;
+}
+.our{
+    color: white;
+    padding-left: 30px;
+    padding-top: 100px;
+    font-size: 50px;
+    font-family: Baloo;
+}
+.card{
+    width: 27%;
+    background-color: rgb(0,56,79);
+    margin-left: 60px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+    
+}
+.card-img-top{
+    padding: 10px;
+}
+.card-body{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.card-body hr{
+    background-color: rgb(215,123,65);
+}
+.card-text{
+    color: white;
+    font-family: 'Baloo 2', light ;
+}
+.card-title{
+    color: rgb(215,123,65);
+    font-family: 'Baloo';
+    font-size: 30px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    text-align:center
+  }
+  .line-dots{
+    text-align: center;
+    padding-bottom: 70px;
+  }
+  
+  .active, .dot:hover {
+    background-color: rgb(215,123,65);
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  .cards-cont{
+   margin-top: 100px;
+   margin-bottom: 40px;
+   padding: 40px;
+  }
+  .slick-carousel{
+    margin-bottom: 50px;
+  }
+
+
+
+
+
+.wrapper{
+    width:35%;
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    display: flex;
+  }
+  
+  .carousel{
+    width:90%;
+    background-color: rgb(0,61,84);
+  }
+  
+  .slick-slide{
+    margin:10px;
+  }
+  .slick-slide img{
+    width:100%;
+  }
+  
+  .swiper-cards{
+    display: flex;
+  }
+  .swiper-wrapper{
+    display: flex;
+  }
+  .swiper-slide{
+    display: flex;
+  }
+  .slick-next::before, .slick-prev::before {
+    color: blue;
+  }
+  .slick-carousell{
+    background-color: rgb(0,56,79);
+    display: flex;
+    margin-top: 80px;
+    width: 94%;
+    margin-left: 40px;
+    
+  }
+
+  .slick-prev:before {
+    content: '←';
+    display: none;
+}
+.slick-next:before {
+  display: none;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: rgb(215,123,65);
+}
+
+
+
+  .contt{
+    background-color: rgb(0,31,40);
+    display: flex;
+
+  }
+  .card{
+    border: rgb(0,61,84);
+    padding-left: 40px;
+    background-color: rgb(0,61,84);
+    
+  }
+  .card-pic{
+    padding: 10px;
+  }
+  .card-body{
+    background: rgb(0,61,84);
+    width: 100%;
+    vertical-align: top;
+  }
+  .card-content{
+    text-align: left;
+    color: #333;
+    padding: 15px;
+  }
+  .card-header{
+    background: rgb(0,61,84);
+
+  }
+  .card-line{
+    width: 100%;
+    background-color: rgb(215,123,65);
+  }
+  .card-text p{
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Baloo 2', light ;
+  }
+  .card-pic{
+    background-color: rgb(0,61,84);
+  } */
+
+
+  .that-div{
+    margin: 90px;
+  }
+  .brands{
+    margin: 80px;
+    padding-top: 70px;
+    width: 90%;
+    justify-content: center;
+    font-size: 42px;
+    color: rgb(215,123,65);
+    font-family: Baloo;
+    
+  }
+  .success {
+    color: white;
+    font-family: Baloo;
+    font-size: 30px;
+}
+
+  .btn {
+    border-radius: none;
+    background-color: rgb(0,56,79);
+    padding: 22px 82px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 88px;
+    font-size: 20px;
+  }
+  .btn:hover{
+    background-color: rgb(215,123,65);
+  }
+  .to-mail{
+    color: white;
+    text-align: center; 
+  }
+  .belo-dancer{
+    margin-left: 80px;
+  }
+  .get-intouch{
+    background-color: rgb(240,241,243);
+    margin-top: 150px;
+  }
+  .maniccon{
+    margin-left: 90px;
+    margin-top: 80px;
+  }
+  .get{
+    margin: 90px;
+    font-size: 45px;
+    color: rgb(215,123,65);
+    font-family: Baloo;
+  }
+  .get-text{
+    margin-left: 90px;
+    margin-top: -80px;
+    font-family:'Baloo 2', light ;
+    font-size: 20px;
+  }
+
+  .containerr{
+    padding: 16px;
+    background-color: rgb(239,240,242);
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 3px 0 26px 0;
+    display: inline-block;
+    border: none;
+    font-family:'Baloo 2', light ;
+    background: rgb(255,255,255);
+  }
+
+  * Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgb(255,255,255);
+    font-family:'Baloo 2', light ;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    font-family:'Baloo 2', light ;
+  }
+  
+  .registerbtn {
+    background-color: rgb(0,56,79);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 90.8%;
+    opacity: 0.9;
+    font-family:'Baloo 2', light ;
+    font-size: 25px;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+.aha2{
+    height: 160px;
+}
+.no-wallss{
+    width: 100%;
+    height: 40%;
+}
+
+.footer{
+    background-image: url("imgs nowalls/Rectangle 80.png");
+    height: 427px;
+    padding: 150px;
+    margin-top: 90px;
+  }
+  .footer h1{
+    font-family: 'Baloo';
+    font-size: 40px;
+    color: white;
+  }
+  .footer p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Baloo';
+  }
+  .footer-text{
+    display: flex;
+    padding-left: 50px;
+  }
+  .footer-text p{
+    padding-left: 20px;
+  }
+  .number{
+    margin-left: 4px;
+  }
+  .container-pic{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    min-height: 40%;
+  }
+  
+
+  /* media query */
+  @media screen and (max-width: 575px){
+   .header-logo img{
+    object-fit: contain;
+    width: 50%;
+   }
+   .topright-nav,ul{
+    display: none;
+   } 
+   .first-text h1{
+    font-size: 40px;
+   }
+   .first-text h3{
+    font-size: 25px;
+   }
+   .thetwo hr{
+    margin-left: 10px;
+    padding-top: -3px;
+   }
+   .thesec-divv{
+    display: none;
+   }
+   .apple{
+    display: flex;
+    padding-left: 30px;
+   }
+   .the-second{
+    
+    height: 145px;
+    margin-top: -7px;
+    margin-left: 10px;
+   
+    
+   }
+   .three{
+    display: none;
+   }
+   .the-last{
+    display: none;
+   }
+   .the-picss{
+    display: flex;
+   }
+   .firstt{
+    width: 300px;
+    padding-left: 90px;
+    height:50%;
+    object-fit: cover;
+   }
+   .the-child{
+    display: none;
+   }
+   .services{
+    margin-top: -100px;
+   }
+   .card {
+    width: 250px;
+    align-items: center;
+   }
+   .card img{
+    align-items: center;
+    width: 130px;
+    margin-left: -37px;
+   }
+   .slick-carousell{
+    margin-left: -5px;
+    align-items: center;
+   }
+   .card-body{
+    width: 140px;
+    margin-left: -50px;
+    padding: 20px;
+   }
+   .card-title{
+    font-size: 20px;
+   }
+   .card-text{
+    font-size: 11px;
+   }
+   div.card.slick-slider.slick-current.slick-active{
+    background-color: red;
+   }
+   .brands{
+    margin-left: 10px;
+    margin-top: -120px;
+   }
+   .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    padding-top: -50px;
+    margin-top: -50px;
+    margin-left: 12px;
+}
+.belo-dancer{
+  display: none;
+}
+.maniccon{
+  margin-left: -10px;
+}
+.get{
+  display: flex;
+  margin-left: 4px;
+}
+.get-text{
+  margin-left: 4px;
+}
+.container-fluid h1{
+  display: flex;
+  font-size: 20px;
+}
+.footer {
+    padding: 75px;
+    margin-top: 90px;
+    width: 100%;
+    background-position: right;
+}
+button.slick-prev.slick-arrow{
+  display: none;
+}
+/* .footer-text {
+  width: 200%;
+  display: flex;
+  padding-left: -10px;
+  font-size: 10px;
+  align-items: center;
+} */
+.footer p {
+  color: white;
+  font-size: 10px;
+  font-family: 'Baloo';
+  margin-left: -10px;}
+
+.slick-carousell {
+  position: relative;
+  display: none;
+}
+.logo-two {
+  margin-top: -80px;
+  width: 80%;
+  padding-left: 100px;
+  margin-bottom: 150px;
+}
+.driven {
+  font-family: Baloo;
+  padding-left: 40px;
+  font-size: 30px;
+}
+.drivrnp {
+  padding: 40px;
+  font-family: 'Baloo 2', light;
+  color: rgb(0,31,40);
+  font-size: 20px;
+  margin-bottom: 150px;
+}
+.thetwo p {
+  padding-left: 20px;
+  font-family: 'Baloo 2', light;
+  font-size: 20px;
+  font-weight: 200;
+}
+}
+
+
+/* DESKITOP VIEW */
+
+@media screen and (min-device-width: 576px) and (max-device-width: 767px) { 
+  /* STYLES HERE */
+  .header-logo img{
+    object-fit: contain;
+  }
+  .first-text h1 {
+    font-size: 60px;
+  }
+  ul a {
+    color: rgb(0,31,40);
+    font-family: Baloo;
+    display: none;
+}
+a:hover {
+  color: rgb(215,123,65);
+  font-family: Baloo;
+  display: none;
+}
+.first-text h1 {
+  font-size: 50px;
+}
+.first-text h3 {
+  color: rgb(0,31,40);
+  font-family: Baloo;
+  font-size: 30px;
+}
+.thetwo p {
+  padding-left: 20px;
+  font-family: 'Baloo 2', light;
+  font-size: 20px;
+  font-weight: 200;
+}
+.firstt{
+  width: 50%;
+}
+.container{
+  width: 100%;
+}
+.section-one{
+  display: flex;
+}
+.the-child, .the-third ,.the-last{
+  display: none;
+}
+.thesec-divv{
+  display: none;
+}
+.driven {
+  font-family: Baloo;
+  padding-left: 40px;
+  font-size: 35px;
+  margin-top: -200px;
+}
+.drivrnp {
+  padding: 40px;
+  font-family: 'Baloo 2', light;
+  color: rgb(0,31,40);
+  font-size: 21px;
+}
+.logo-two {
+  width: 50%;
+  margin-top: -50px;
+  margin-left: 165px;
+}
+.our {
+  color: white;
+  padding-left: 30px;
+  padding-top: 100px;
+  font-size: 40px;
+  font-family: Baloo;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+}
+.slick-slider .slick-track, .slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  margin-left: -36px;
+}
+.brands {
+  margin: 71px;
+  padding-top: 16px;
+  width: 90%;
+  justify-content: center;
+  font-size: 42px;
+  color: rgb(215,123,65);
+  font-family: Baloo;
+  margin-top: -80px;
+}
+.btn {
+  border-radius: none;
+  background-color: rgb(0,56,79);
+  padding: 18px 84px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 88px;
+  font-size: 20px;
+  margin-top: -40px;
+}
+.belo-dancer {
+  margin-left: 1px;
+  width: 90%;
+  width: 100%;
+  /* height: 50%; */
+  height: 400px;
+  margin-top: 40px;
+}
+.maniccon {
+  margin-left: 90px;
+  margin-top: 7px;
+}
+.footer h1 {
+  font-family: 'Baloo';
+  font-size: 25px;
+  color: white;
+}
+.footer-text p {
+  padding-left: 20px;
+  font-size: 10px;
+}
+.footer {
+  
+  height: 427px;
+  padding: 150px;
+  margin-top: 90px;
+  background-position: right;
+  align-items: lefft;
+}
+
+}
+
+@media screen and (min-device-width: 577px) and (max-device-width: 991px) { 
+  /* STYLES HERE */
+  .header-logo img{
+    object-fit: contain;
+  }
+  .topright-nav {
+    display: flex right;
+    margin-left: 170px;
+    padding-top: 60px; 
+}
+ul a {
+  color: rgb(0,31,40);
+  font-family: Baloo;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.first-text h1 {
+  font-size: 80px;
+  color: rgb(0,31,40);
+  font-family: Baloo;
+}
+.first-text h3 {
+  color: rgb(0,31,40);
+  font-family: Baloo;
+  font-size: 30px;
+}
+.first-text hr {
+  width: 5%;
+  height: 2px;
+  background-color: rgb(215,123,65);
+  margin-top: -0.px;
+  margin-left: 18px;
+}
+.the-second {
+  height: 77%;
+  width: 199px;
+  padding-top: 9px;
+  object-fit: cover;
+}
+.firstt{
+  width: 199px;
+}
+.the-child{
+  width: 199px;
+}
+.the-child {
+  width: 221px;
+  height: 100%;
+}
+.the-third {
+  padding-top: 201px;
+  width: 258px;
+  padding-left: 23px;
+}
+.the-last {
+  margin-left: 61px;
+  width: 40vh;
+  height: 100%;
+  object-fit: cover;
+}
+.grp-last {
+  margin-left: 10px;
+  /* padding-left: 100px; */
+  /* margin-left: 67px; */
+  /* margin-top: -10px; */
+  width: 130%;
+  margin-left: 107px;
+  margin-top: 20px;
+}
+.second-last {
+  margin-left: 36px;
+  width: 180%;
+  margin-top: 20px;
+}
+.driven {
+  font-family: Baloo;
+  padding-left: 40px;
+  font-size: 30px;
+}
+.logo-two {
+  object-fit: cover;
+  margin-top: -80px;
+  margin-left: -17px;
+  width: 120%;
+}
+.our {
+  color: white;
+  padding-left: 30px;
+  padding-top: 100px;
+  font-size: 30px;
+  font-family: Baloo;
+}
+.btn {
+  border-radius: none;
+  background-color: rgb(0,56,79);
+  padding: 15px 52px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 88px;
+  font-size: 20px;
+}
+.belo-dancer {
+  margin-left: 41px;
+  width: 90%;
+  height: 100%;
+  object-fit: contain;
+  margin-top: 35px;
+}
+.get {
+  margin: 99px;
+  font-size: 30px;
+  color: rgb(215,123,65);
+  font-family: Baloo;
+}
+.get-text {
+  margin-left: 81px;
+  margin-top: -69px;
+  font-family: 'Baloo 2', light;
+  font-size: 17px;
+}
+.footer-text {
+  display: flex;
+  padding-left: 50px;
+  margin-top: 40px;
+}
+.footer {
+  height: 356px;
+  padding: 149px;
+  margin-top: 42px;
+  background-position: right;
+}
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 667px) { 
+  /* STYLES HERE */
+  .header-logo img{
+    object-fit: contain;
+  }
+  .driven {
+    font-family: Baloo;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.drivrnp {
+    padding: 40px;
+    font-family: 'Baloo 2', light;
+    color: rgb(0,31,40);
+    font-size: 18px;
+    
+}
+.logo-two {
+  margin-top: -57px;
+  width: 80%;
+  padding-left: 100px;
+  margin-bottom: 15px;
+}
+
+.our {
+  color: white;
+  padding-left: 30px;
+  padding-top: 63px;
+  font-size: 23px;
+  font-family: Baloo;
+}
+.brands {
+  margin: 80px;
+  padding-top: 70px;
+  width: 90%;
+  justify-content: center;
+  font-size: 23px;
+  color: rgb(215,123,65);
+  font-family: Baloo;
+}
+.btn {
+  border-radius: none;
+  background-color: rgb(0,56,79);
+  padding: 10px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 88px;
+  font-size: 20px;
+  margin-left: 80px;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  padding-top: -50px;
+  margin-top: -50px;
+  margin-left: 83px;
+}
+.maniccon {
+  margin-left: -33px;
+  width: 362px;
+  height: 394px;
+  object-fit: contain;
+}
+.get {
+  margin: 90px;
+  font-size: 20px;
+  color: rgb(215,123,65);
+  font-family: Baloo;
+}
+.get-text {
+  margin-left: 9px;
+  margin-top: -80px;
+  font-family: 'Baloo 2', light;
+  font-size: 18px;
+}
+.footer-text {
+  display: flex;
+  padding-left: -39px;
+  margin-left: -128px;
+}
+.footer p {
+  color: white;
+  font-size: 10px;
+  font-family: 'Baloo';
+  margin-left: -18px;
+}
+.footer {
+  height: 235px;
+  padding: 150px;
+  margin-top: 90px;
+}
+.first-text h1 {
+  font-size: 24px;
+}
+.first-text h3 {
+  font-size: 21px;
+}
+.container {
+  padding: 10px;
+  margin-left: -14px;
+}
+.firstt {
+  display: none;
+}
+.the-second {
+  height: 65%;
+  width: 100%;
+  padding-top: 9px;
+  margin-left: 10px;
+  object-fit: cover;
+  padding-left: 98px;
+}
+
+
+}
+
+
+
+   
+   
+   
+   
+
+ 
+    
+  
+  
+
